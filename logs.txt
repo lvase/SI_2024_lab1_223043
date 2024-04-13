@@ -1,0 +1,24 @@
+
+Author: lvase <vase.lazarev2@gmail.com>
+Date:   Sat Apr 13 15:49:53 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 8175ca470578e1bb3221760a6e1389b0218ee911
+Author: lvase <vase.lazarev2@gmail.com>
+Date:   Sat Apr 13 15:57:11 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 29746dce3aa77c61b608aa2e7d1f55ce31dc166c
+Author: lvase <vase.lazarev2@gmail.com>
+Date:   Sat Apr 13 15:46:53 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 6c7464b538f535b56300eca0b4a9a094e5213056
+Author: lvase <vase.lazarev2@gmail.com>
+Date:   Sat Apr 13 15:27:10 2024 +0200
+
+    add starter code
+
