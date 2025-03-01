@@ -1,14 +1,18 @@
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class SILab1_2 {
 
-    private static String makeBigStringFrom (List<String> list, int minLength) {
-        StringBuilder sb = new StringBuilder();
-        for (String el : list) {
-            if (el.length() >= minLength) {
-                sb.append(el);
-            }
+    private static String makeBigStringFrom(List<String> list, int minLength) {
+        if (list == null) {
+            throw new IllegalArgumentException("List cannot be null");
         }
-        return sb.toString();
-    }
+
+        return list.stream()
+                .filter(Objects::nonNull)
+                .filter(s -> s.length() >= minLength)
+                .collect(Collectors.joining());
+	}
 }
+
